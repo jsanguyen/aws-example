@@ -3,7 +3,7 @@
 Example of Terraform usage to create and provision roles and users inside of AWS.
 
 
-1. Pull repo and add your AWS credentials inside the ```terraform.tfvars``` file. 
+1. Pull repo, ```terraform init``` in project, and add your AWS credentials inside the ```terraform.tfvars``` file. 
 
 
 2. Run the terraform script to deploy examples into your AWS ecosystem. 
