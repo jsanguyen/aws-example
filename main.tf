@@ -59,7 +59,7 @@ resource "aws_iam_group" "prod-ci-group" {
   name = "group1"
 }
 
-resource "aws_iam_group_policy_attachment" "test-attach" {
+resource "aws_iam_group_policy_attachment" "prod-ci-attachment" {
   group      = aws_iam_group.prod-ci-group.name
   policy_arn = aws_iam_policy.ci-prod-policy-1.arn
 }
